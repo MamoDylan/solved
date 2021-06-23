@@ -1,0 +1,128 @@
+
+
+body{
+    background-image: url(images/MamoLogo.svg);
+    font-family: "Poppins";
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Italic.ttf);
+}
+
+.logo{
+    width: 500px;
+    margin:  32px auto;
+    background: r ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.logo img{
+    width: 90px;
+    margin-bottom: 10px;
+}
+.logo span{
+    display: block;
+}
+
+.comments{
+    margin: 10px auto;
+    padding: 10px 20px 10px 40px;
+    width: 600px;
+    border-left: 2px dashed #cdcdcd;
+    
+}
+
+.comments p{
+    background: #fff;
+    padding: 10px;
+    min-height: 100px;
+    font-size: 16px;
+    line-height: 1.8;
+    border: 1px solid#cdcdcd;
+    position: relative;
+}
+.comments p:before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -54px;
+    width: 15px;
+    height: 15px;
+    background: #6a6b7d;
+    border-radius: 50%;
+    border: 4px solid #d3d3d3;
+}
+.comments p:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #cdcdcd transparent transparent;
+    border-width: 10px;
+    position: absolute;
+    left: -21px;
+    top: 31px;
+}
+span{
+    display: block;
+    position: relative;
+}
+p:first-child span:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 2px;
+    top: 0px;
+    left: -150px;
+    background-size: cover;
+    background-image: url(images/avatars/img_avatar.png);
+}
+p:nth-child(2) span:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 2px;
+    top: 0px;
+    left: -150px;
+    background-size: cover;
+    background-image: url(images/avatars/img_avatar2.png);
+}
+p:nth-child(3) span:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 2px;
+    top: 0px;
+    left: -150px;
+    background-size: cover;
+    background-image: url(images/avatars/avatar6.png);
+}
+p:nth-child(4) span:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 2px;
+    top: 0px;
+    left: -150px;
+    background-size: cover;
+    background-image: url(images/avatars/avatar5.png);
+}
+p:nth-child(5) span:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 2px;
+    top: 0px;
+    left: -150px;
+    background-size: cover;
+    background-image: url(images/avatars/avatar2.png);
+}
+
